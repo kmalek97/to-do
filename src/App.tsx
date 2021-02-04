@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './Scss/_App.scss';
+import Header from './Components/Header/Header';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello World :)</h1>
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
